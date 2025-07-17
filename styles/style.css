@@ -39,11 +39,19 @@
     border: none;
 }
 
+/* header section */
+.header
+{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+}
+
 /* navbar style */
 .nav-style
 {
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title
@@ -71,4 +79,42 @@ nav ul
 nav ul li a
 {
     text-decoration: none;
+}
+
+/* this is the banner section */
+.banner
+{
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-greed
+{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.banner-title
+{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 5px 0 20px 0;
+}
+
+.banner-description
+{
+    font-size: 400;
+    font-weight: 1.25rem;
+}
+
+.banner-btn-1{
+    margin: 2rem;
+}
+
+.hardy-img
+{
+    width: 585px;
+    height: 676px;
+    background-image: url(../images/header_bg.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
